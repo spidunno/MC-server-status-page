@@ -49,4 +49,4 @@ def hello_world():
   # print(onlinePlayers)
 	return htmlOnline.replace('%image', status.favicon).replace('%css', css).replace('%ammountOnline', str(status.players.online)).replace('%currentlyOnline', onlinePlayers).replace('%javascript', js)
 
-app.run(host='0.0.0.0', port=8080)
+app.run(host='0.0.0.0', port=3000)
